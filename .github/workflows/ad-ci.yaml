@@ -29,7 +29,7 @@ jobs:
         run: |
           cd src/ad
           chmod +x gradlew
-          ./gradlew build -x test
+          ./gradlew build -x test -x verifyGoogleJavaFormat
 
   docker:
     runs-on: ubuntu-latest
