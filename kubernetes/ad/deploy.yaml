@@ -31,7 +31,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: adservice
-          image: 281145281565.dkr.ecr.eu-west-3.amazonaws.com/opentelemetry/ad:27419428983
+          image: 281145281565.dkr.ecr.eu-west-3.amazonaws.com/opentelemetry/ad:27428797807
           imagePullPolicy: IfNotPresent
           ports:
             
