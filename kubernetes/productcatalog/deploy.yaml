@@ -31,7 +31,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: productcatalogservice
-          image: 281145281565.dkr.ecr.eu-west-3.amazonaws.com/opentelemetry/product-catalog:27432340678
+          image: 281145281565.dkr.ecr.eu-west-3.amazonaws.com/opentelemetry/product-catalog:27445288577
           imagePullPolicy: IfNotPresent
           ports:
             
